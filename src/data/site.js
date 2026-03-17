@@ -1,0 +1,90 @@
+import {
+  FaGitAlt,
+  FaGithub,
+  FaJsSquare,
+  FaLinkedinIn,
+  FaNodeJs,
+  FaReact,
+} from "react-icons/fa";
+import { SiJavascript, SiMongodb, SiTailwindcss, SiVite } from "react-icons/si";
+
+export const navLinks = [
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
+  { label: "Contact", href: "#contact" },
+];
+
+export const profile = {
+  name: "Tanushree Soni",
+  badge: "Modern developer portfolio",
+  intro:
+    "I create elegant web interfaces, practical software solutions, and engaging technical learning experiences. My work blends clean development with thoughtful presentation so products feel professional and easy to use.",
+  image:
+    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1000&q=80",
+  focus: "Frontend-first experiences with full-stack understanding",
+  focusSummary:
+    "I enjoy building polished interfaces in React while supporting real-world app functionality with backend tools and structured workflows.",
+  footerNote: "Designed and developed with React, Vite, Tailwind CSS, Framer Motion, and React Icons.",
+};
+
+export const stats = [
+  { value: "10+", label: "Projects built and refined" },
+  { value: "6+", label: "Core technologies used" },
+  { value: "100%", label: "Focus on clean, practical UI" },
+];
+
+export const techStack = [
+  {
+    label: "React",
+    icon: FaReact,
+    description: "Component-driven frontend development for modern web apps.",
+  },
+  {
+    label: "JavaScript",
+    icon: SiJavascript,
+    description: "Interactive logic and client-side application behavior.",
+  },
+  {
+    label: "Node.js",
+    icon: FaNodeJs,
+    description: "Backend services and API-powered functionality.",
+  },
+  {
+    label: "MongoDB",
+    icon: SiMongodb,
+    description: "Flexible database handling for scalable applications.",
+  },
+  {
+    label: "Tailwind CSS",
+    icon: SiTailwindcss,
+    description: "Fast styling with responsive utility-first workflows.",
+  },
+  {
+    label: "Vite",
+    icon: SiVite,
+    description: "Modern development tooling for fast builds and iteration.",
+  },
+];
+
+export const socialLinks = [
+  { label: "GitHub", href: "https://github.com/yourusername", icon: FaGithub },
+  { label: "LinkedIn", href: "https://linkedin.com/in/yourusername", icon: FaLinkedinIn },
+];
+
+export const contactInfo = {
+  email: "tanushreesoni.dev@example.com",
+  location: "India",
+  github: "https://github.com/yourusername",
+  linkedin: "https://linkedin.com/in/yourusername",
+};
+
+export const skillIcons = {
+  react: FaReact,
+  javascript: FaJsSquare,
+  node: FaNodeJs,
+  mongodb: SiMongodb,
+  git: FaGitAlt,
+  tailwind: SiTailwindcss,
+};
